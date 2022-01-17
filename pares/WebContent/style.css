@@ -1,1 +1,93 @@
 @charset "UTF-8";
+body {
+	background-color: orange;
+	padding: 0vw;
+	margin: 0vw;
+}
+
+@font-face {
+	font-family: Sriracha;
+	src: url("Sriracha-Regular.ttf")
+}
+
+h1 {
+	display: block;
+	font-family: Sriracha, cursive;
+	text-align: center;
+}
+
+nav {
+	background-color: lightblue;
+	height: 2vw;
+}
+
+a {
+	margin-right: 2vw;
+	border: 1px black solid;
+}
+
+
+hr.hr1 {
+	background-color: white;
+	height: 2vw;
+	margin: 0vw;
+}
+
+section.section1 {
+	background-color: white;
+	height: auto;
+	padding-bottom: 3vw;
+}
+
+p.p1 {
+	text-indent: 2vw;
+}
+
+img.img1 {
+	float: left;
+	height: 10vw;
+	weight: 10vw;
+}
+
+hr.hr2 {
+	background-color: blue;
+	height: 2vw;
+	margin: 0vw;
+}
+
+p.p2 {
+	color: blue;
+}
+
+article {
+	background-color: lightblue;
+	padding-top: 2vw;
+	padding-bottom: 3vw;
+}
+
+hr.hr3 {
+	background-color: red;
+	height: 2vw;
+}
+
+p.p3 {
+	color: red;
+}
+
+img.img2 {
+	float: right;
+	height: 15vw;
+	weight: 10vw;
+}
+
+hr.hr4 {
+	background-color: salmon;
+	height: 2vw;
+	margin: 0vw;
+}
+p.p4 {
+	
+	text-align: center;
+	background-color: salmon;
+	height: 5vw;
+}
