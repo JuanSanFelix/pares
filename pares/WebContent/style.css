@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
 	background-color: orange;
 	padding: 0vw;
@@ -25,7 +26,6 @@ a {
 	margin-right: 2vw;
 	border: 1px black solid;
 }
-
 
 hr.hr1 {
 	background-color: white;
@@ -86,7 +86,6 @@ hr.hr4 {
 }
 
 p.p4 {
-	
 	text-align: center;
 	height: 5vw;
 	font-weight: bold;
@@ -99,4 +98,63 @@ footer {
 article.article2 {
 	background-color: white;
 	margin-left: 2vw;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?zcp3vm');
+	src: url('fonts/icomoon.eot?zcp3vm#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?zcp3vm') format('truetype'),
+		url('fonts/icomoon.woff?zcp3vm') format('woff'),
+		url('fonts/icomoon.svg?zcp3vm#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+
+.icon-watch:before {
+	content: "\e900";
+}
+
+.icon-time:before {
+	content: "\e900";
+}
+
+.icon-wrist-watch:before {
+	content: "\e900";
+}
+
+.icon-mobile:before {
+	content: "\e958";
+}
+
+.icon-mobile2:before {
+	content: "\e959";
+}
+
+.icon-tablet:before {
+	content: "\e95a";
+}
+
+.icon-appleinc:before {
+	content: "\eabe";
+}
+
+.icon-finder:before {
+	content: "\eabf";
+}
+
+ul.ul1 {
+	list-style-type: none;
 }
