@@ -59,7 +59,7 @@ p.p2 {
 	color: blue;
 }
 
-article {
+article.article1 {
 	background-color: lightblue;
 	padding-top: 2vw;
 	padding-bottom: 3vw;
@@ -81,13 +81,22 @@ img.img2 {
 }
 
 hr.hr4 {
-	background-color: salmon;
 	height: 2vw;
 	margin: 0vw;
 }
+
 p.p4 {
 	
 	text-align: center;
-	background-color: salmon;
 	height: 5vw;
+	font-weight: bold;
+}
+
+footer {
+	background-color: salmon;
+}
+
+article.article2 {
+	background-color: white;
+	margin-left: 2vw;
 }
